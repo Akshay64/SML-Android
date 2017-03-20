@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="VerifySettingsAddResourcesScenarios(failed)">
+    <classes>
+      <class name="com.sml.testcases.VerifyLaunch">
+        <methods>
+          <include name="afterLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunch -->
+      <class name="com.sml.testcases.VerifySendFeedBackScenarios">
+        <methods>
+          <include name="afterFeedBack"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySendFeedBackScenarios -->
+      <class name="com.sml.testcases.VerifySettingsAddResourcesScenarios">
+        <methods>
+          <include name="beforeSettingsAddResources"/>
+          <include name="afterTest"/>
+          <include name="verifyAddRespurcesLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifySignIn">
+        <methods>
+          <include name="beforeSignIn"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySignIn -->
+      <class name="com.sml.testcases.VerifyLaunchSignIn">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSignInLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchSignIn -->
+      <class name="com.sml.testcases.VerifySettingsLaunch">
+        <methods>
+          <include name="verifySettingsLaunch"/>
+          <include name="beforeSettingsOperations"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsLaunch -->
+      <class name="com.sml.testcases.VerifyAddResourcesScenarios">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeResourcesScenarios"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifyMyProfileScenario">
+        <methods>
+          <include name="beforeMyProfile"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyMyProfileScenario -->
+      <class name="com.sml.testcases.VerifyLaunchRegistrationPage">
+        <methods>
+          <include name="beforeRegistrationLaunch"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchRegistrationPage -->
+      <class name="com.sml.testcases.VerifyUpdatesScenario">
+        <methods>
+          <include name="beforeUpdatesLaunch"/>
+          <include name="afterUpdatesLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyUpdatesScenario -->
+      <class name="com.sml.testcases.VerifyRemoveResourcesLaunch">
+        <methods>
+          <include name="beforeSettingsRemoveResources"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyRemoveResourcesLaunch -->
+    </classes>
+  </test> <!-- VerifySettingsAddResourcesScenarios(failed) -->
+  <test name="VerifyRemoveResourcesLaunch(failed)">
+    <classes>
+      <class name="com.sml.testcases.VerifyLaunch">
+        <methods>
+          <include name="afterLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunch -->
+      <class name="com.sml.testcases.VerifySendFeedBackScenarios">
+        <methods>
+          <include name="afterFeedBack"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySendFeedBackScenarios -->
+      <class name="com.sml.testcases.VerifySignIn">
+        <methods>
+          <include name="beforeSignIn"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySignIn -->
+      <class name="com.sml.testcases.VerifySettingsAddResourcesScenarios">
+        <methods>
+          <include name="beforeSettingsAddResources"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifyLaunchSignIn">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSignInLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchSignIn -->
+      <class name="com.sml.testcases.VerifySettingsLaunch">
+        <methods>
+          <include name="verifySettingsLaunch"/>
+          <include name="beforeSettingsOperations"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsLaunch -->
+      <class name="com.sml.testcases.VerifyAddResourcesScenarios">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeResourcesScenarios"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifyMyProfileScenario">
+        <methods>
+          <include name="beforeMyProfile"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyMyProfileScenario -->
+      <class name="com.sml.testcases.VerifyLaunchRegistrationPage">
+        <methods>
+          <include name="beforeRegistrationLaunch"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchRegistrationPage -->
+      <class name="com.sml.testcases.VerifyUpdatesScenario">
+        <methods>
+          <include name="beforeUpdatesLaunch"/>
+          <include name="afterUpdatesLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyUpdatesScenario -->
+      <class name="com.sml.testcases.VerifyRemoveResourcesLaunch">
+        <methods>
+          <include name="verifyRemoveResourcesLaunch"/>
+          <include name="beforeSettingsRemoveResources"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyRemoveResourcesLaunch -->
+    </classes>
+  </test> <!-- VerifyRemoveResourcesLaunch(failed) -->
+  <test name="VerifyMyProfileScenario(failed)">
+    <classes>
+      <class name="com.sml.testcases.VerifyLaunch">
+        <methods>
+          <include name="afterLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunch -->
+      <class name="com.sml.testcases.VerifySendFeedBackScenarios">
+        <methods>
+          <include name="afterFeedBack"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySendFeedBackScenarios -->
+      <class name="com.sml.testcases.VerifySignIn">
+        <methods>
+          <include name="beforeSignIn"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySignIn -->
+      <class name="com.sml.testcases.VerifySettingsAddResourcesScenarios">
+        <methods>
+          <include name="beforeSettingsAddResources"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifyMyProfileScenario">
+        <methods>
+          <include name="verifyMyProfileLaunch"/>
+          <include name="beforeMyProfile"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyMyProfileScenario -->
+      <class name="com.sml.testcases.VerifyLaunchSignIn">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSignInLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchSignIn -->
+      <class name="com.sml.testcases.VerifySettingsLaunch">
+        <methods>
+          <include name="verifySettingsLaunch"/>
+          <include name="beforeSettingsOperations"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsLaunch -->
+      <class name="com.sml.testcases.VerifyAddResourcesScenarios">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeResourcesScenarios"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifyLaunchRegistrationPage">
+        <methods>
+          <include name="beforeRegistrationLaunch"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchRegistrationPage -->
+      <class name="com.sml.testcases.VerifyUpdatesScenario">
+        <methods>
+          <include name="beforeUpdatesLaunch"/>
+          <include name="afterUpdatesLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyUpdatesScenario -->
+      <class name="com.sml.testcases.VerifyRemoveResourcesLaunch">
+        <methods>
+          <include name="beforeSettingsRemoveResources"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyRemoveResourcesLaunch -->
+    </classes>
+  </test> <!-- VerifyMyProfileScenario(failed) -->
+  <test name="VerifySendFeedBackScenarios(failed)">
+    <classes>
+      <class name="com.sml.testcases.VerifySendFeedBackScenarios">
+        <methods>
+          <include name="verifyFeedBackLaunch"/>
+          <include name="verifySendFeedBack"/>
+          <include name="afterFeedBack"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySendFeedBackScenarios -->
+      <class name="com.sml.testcases.VerifyLaunch">
+        <methods>
+          <include name="afterLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunch -->
+      <class name="com.sml.testcases.VerifySignIn">
+        <methods>
+          <include name="beforeSignIn"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySignIn -->
+      <class name="com.sml.testcases.VerifySettingsAddResourcesScenarios">
+        <methods>
+          <include name="beforeSettingsAddResources"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifyLaunchSignIn">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSignInLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchSignIn -->
+      <class name="com.sml.testcases.VerifySettingsLaunch">
+        <methods>
+          <include name="verifySettingsLaunch"/>
+          <include name="beforeSettingsOperations"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifySettingsLaunch -->
+      <class name="com.sml.testcases.VerifyAddResourcesScenarios">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeResourcesScenarios"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyAddResourcesScenarios -->
+      <class name="com.sml.testcases.VerifyMyProfileScenario">
+        <methods>
+          <include name="beforeMyProfile"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyMyProfileScenario -->
+      <class name="com.sml.testcases.VerifyLaunchRegistrationPage">
+        <methods>
+          <include name="beforeRegistrationLaunch"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyLaunchRegistrationPage -->
+      <class name="com.sml.testcases.VerifyUpdatesScenario">
+        <methods>
+          <include name="beforeUpdatesLaunch"/>
+          <include name="afterUpdatesLaunch"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyUpdatesScenario -->
+      <class name="com.sml.testcases.VerifyRemoveResourcesLaunch">
+        <methods>
+          <include name="beforeSettingsRemoveResources"/>
+        </methods>
+      </class> <!-- com.sml.testcases.VerifyRemoveResourcesLaunch -->
+    </classes>
+  </test> <!-- VerifySendFeedBackScenarios(failed) -->
+</suite> <!-- Failed suite [Suite] -->

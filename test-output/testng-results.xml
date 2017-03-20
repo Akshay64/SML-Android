@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="3" total="22" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="362976" started-at="2017-03-16T14:26:12Z" finished-at="2017-03-16T14:32:15Z">
+    <groups>
+    </groups>
+    <test name="VerifyLaunch" duration-ms="30" started-at="2017-03-16T14:26:12Z" finished-at="2017-03-16T14:26:12Z">
+      <class name="com.sml.testcases.VerifyLaunch">
+        <test-method status="PASS" signature="verifyLaunch()[pri:1, instance:com.sml.testcases.VerifyLaunch@2bbf4b8b]" name="verifyLaunch" duration-ms="6" started-at="2017-03-16T19:56:12Z" finished-at="2017-03-16T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunch -->
+        <test-method status="PASS" signature="afterLaunch()[pri:0, instance:com.sml.testcases.VerifyLaunch@2bbf4b8b]" name="afterLaunch" is-config="true" duration-ms="1" started-at="2017-03-16T19:56:12Z" finished-at="2017-03-16T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLaunch -->
+      </class> <!-- com.sml.testcases.VerifyLaunch -->
+    </test> <!-- VerifyLaunch -->
+    <test name="VerifyLaunchRegistration" duration-ms="4270" started-at="2017-03-16T14:26:12Z" finished-at="2017-03-16T14:26:16Z">
+      <class name="com.sml.testcases.VerifyLaunchRegistrationPage">
+        <test-method status="PASS" signature="beforeRegistrationLaunch()[pri:0, instance:com.sml.testcases.VerifyLaunchRegistrationPage@36b4cef0]" name="beforeRegistrationLaunch" is-config="true" duration-ms="0" started-at="2017-03-16T19:56:12Z" finished-at="2017-03-16T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRegistrationLaunch -->
+        <test-method status="PASS" signature="verifyLaunch()[pri:0, instance:com.sml.testcases.VerifyLaunchRegistrationPage@36b4cef0]" name="verifyLaunch" duration-ms="1" started-at="2017-03-16T19:56:12Z" finished-at="2017-03-16T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunch -->
+        <test-method status="PASS" signature="verifyLaunchRegistrationPage()[pri:1, instance:com.sml.testcases.VerifyLaunchRegistrationPage@36b4cef0]" name="verifyLaunchRegistrationPage" duration-ms="3972" started-at="2017-03-16T19:56:12Z" finished-at="2017-03-16T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunchRegistrationPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sml.testcases.VerifyLaunchRegistrationPage@36b4cef0]" name="afterTest" is-config="true" duration-ms="272" started-at="2017-03-16T19:56:16Z" finished-at="2017-03-16T19:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sml.testcases.VerifyLaunchRegistrationPage -->
+    </test> <!-- VerifyLaunchRegistration -->
+    <test name="VerifyLaunchSignIn" duration-ms="1832" started-at="2017-03-16T14:26:17Z" finished-at="2017-03-16T14:26:18Z">
+      <class name="com.sml.testcases.VerifyLaunchSignIn">
+        <test-method status="PASS" signature="beforeSignInLaunch()[pri:0, instance:com.sml.testcases.VerifyLaunchSignIn@3e57cd70]" name="beforeSignInLaunch" is-config="true" duration-ms="946" started-at="2017-03-16T19:56:17Z" finished-at="2017-03-16T19:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSignInLaunch -->
+        <test-method status="PASS" signature="verifySignInLaunch()[pri:1, instance:com.sml.testcases.VerifyLaunchSignIn@3e57cd70]" name="verifySignInLaunch" duration-ms="884" started-at="2017-03-16T19:56:17Z" finished-at="2017-03-16T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInLaunch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sml.testcases.VerifyLaunchSignIn@3e57cd70]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-03-16T19:56:18Z" finished-at="2017-03-16T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sml.testcases.VerifyLaunchSignIn -->
+    </test> <!-- VerifyLaunchSignIn -->
+    <test name="VerifySignIn" duration-ms="86928" started-at="2017-03-16T14:26:18Z" finished-at="2017-03-16T14:27:45Z">
+      <class name="com.sml.testcases.VerifySignIn">
+        <test-method status="PASS" signature="beforeSignIn()[pri:0, instance:com.sml.testcases.VerifySignIn@7a9273a8]" name="beforeSignIn" is-config="true" duration-ms="79" started-at="2017-03-16T19:56:18Z" finished-at="2017-03-16T19:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSignIn -->
+        <test-method status="PASS" signature="verifyInvalidSignInProcess(java.lang.String, java.lang.String)[pri:1, instance:com.sml.testcases.VerifySignIn@7a9273a8]" name="verifyInvalidSignInProcess" duration-ms="16299" started-at="2017-03-16T19:56:18Z" data-provider="SignIn" finished-at="2017-03-16T19:56:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSignInProcess -->
+        <test-method status="PASS" signature="verifyInvalidSignInProcess(java.lang.String, java.lang.String)[pri:1, instance:com.sml.testcases.VerifySignIn@7a9273a8]" name="verifyInvalidSignInProcess" duration-ms="17167" started-at="2017-03-16T19:56:35Z" data-provider="SignIn" finished-at="2017-03-16T19:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajit@mobiuo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSignInProcess -->
+        <test-method status="PASS" signature="verifyInvalidSignInProcess(java.lang.String, java.lang.String)[pri:1, instance:com.sml.testcases.VerifySignIn@7a9273a8]" name="verifyInvalidSignInProcess" duration-ms="19248" started-at="2017-03-16T19:56:52Z" data-provider="SignIn" finished-at="2017-03-16T19:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSignInProcess -->
+        <test-method status="PASS" signature="verifyValidSignIn()[pri:2, instance:com.sml.testcases.VerifySignIn@7a9273a8]" name="verifyValidSignIn" duration-ms="31121" started-at="2017-03-16T19:57:11Z" finished-at="2017-03-16T19:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidSignIn -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sml.testcases.VerifySignIn@7a9273a8]" name="afterTest" is-config="true" duration-ms="3004" started-at="2017-03-16T19:57:42Z" finished-at="2017-03-16T19:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sml.testcases.VerifySignIn -->
+    </test> <!-- VerifySignIn -->
+    <test name="VerifyAddResourcesLaunch" duration-ms="121" started-at="2017-03-16T14:27:45Z" finished-at="2017-03-16T14:27:45Z">
+      <class name="com.sml.testcases.VerifyAddResourcesLaunch">
+        <test-method status="PASS" signature="verifyAddResourcesLaunch()[pri:1, instance:com.sml.testcases.VerifyAddResourcesLaunch@7113b13f]" name="verifyAddResourcesLaunch" duration-ms="118" started-at="2017-03-16T19:57:45Z" finished-at="2017-03-16T19:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddResourcesLaunch -->
+      </class> <!-- com.sml.testcases.VerifyAddResourcesLaunch -->
+    </test> <!-- VerifyAddResourcesLaunch -->
+    <test name="VerifyAddResourcesScenarios" duration-ms="125076" started-at="2017-03-16T14:27:45Z" finished-at="2017-03-16T14:29:51Z">
+      <class name="com.sml.testcases.VerifyAddResourcesScenarios">
+        <test-method status="PASS" signature="beforeResourcesScenarios()[pri:0, instance:com.sml.testcases.VerifyAddResourcesScenarios@5bcea91b]" name="beforeResourcesScenarios" is-config="true" duration-ms="85" started-at="2017-03-16T19:57:45Z" finished-at="2017-03-16T19:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeResourcesScenarios -->
+        <test-method status="PASS" signature="verifyDeSelectEnable()[pri:1, instance:com.sml.testcases.VerifyAddResourcesScenarios@5bcea91b]" name="verifyDeSelectEnable" duration-ms="101" started-at="2017-03-16T19:57:46Z" finished-at="2017-03-16T19:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeSelectEnable -->
+        <test-method status="PASS" signature="verifyInstalButtonDisabled()[pri:2, instance:com.sml.testcases.VerifyAddResourcesScenarios@5bcea91b]" name="verifyInstalButtonDisabled" duration-ms="749" started-at="2017-03-16T19:57:46Z" finished-at="2017-03-16T19:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInstalButtonDisabled -->
+        <test-method status="PASS" signature="verifySelectAllEnable()[pri:3, instance:com.sml.testcases.VerifyAddResourcesScenarios@5bcea91b]" name="verifySelectAllEnable" duration-ms="59" started-at="2017-03-16T19:57:46Z" finished-at="2017-03-16T19:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectAllEnable -->
+        <test-method status="PASS" signature="verifyInstallButtonEnabled()[pri:4, instance:com.sml.testcases.VerifyAddResourcesScenarios@5bcea91b]" name="verifyInstallButtonEnabled" duration-ms="805" started-at="2017-03-16T19:57:46Z" finished-at="2017-03-16T19:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInstallButtonEnabled -->
+        <test-method status="PASS" signature="installResource()[pri:5, instance:com.sml.testcases.VerifyAddResourcesScenarios@5bcea91b]" name="installResource" duration-ms="120268" started-at="2017-03-16T19:57:47Z" finished-at="2017-03-16T19:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installResource -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sml.testcases.VerifyAddResourcesScenarios@5bcea91b]" name="afterTest" is-config="true" duration-ms="3002" started-at="2017-03-16T19:59:48Z" finished-at="2017-03-16T19:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sml.testcases.VerifyAddResourcesScenarios -->
+    </test> <!-- VerifyAddResourcesScenarios -->
+    <test name="VerifySettingsLaunch" duration-ms="1276" started-at="2017-03-16T14:29:51Z" finished-at="2017-03-16T14:29:52Z">
+      <class name="com.sml.testcases.VerifySettingsLaunch">
+        <test-method status="PASS" signature="beforeSettingsOperations()[pri:0, instance:com.sml.testcases.VerifySettingsLaunch@12f41634]" name="beforeSettingsOperations" is-config="true" duration-ms="74" started-at="2017-03-16T19:59:51Z" finished-at="2017-03-16T19:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSettingsOperations -->
+        <test-method status="PASS" signature="launchSettings()[pri:1, instance:com.sml.testcases.VerifySettingsLaunch@12f41634]" name="launchSettings" duration-ms="590" started-at="2017-03-16T19:59:51Z" finished-at="2017-03-16T19:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSettings -->
+        <test-method status="PASS" signature="verifySettingsLaunch()[pri:0, instance:com.sml.testcases.VerifySettingsLaunch@12f41634]" name="verifySettingsLaunch" is-config="true" duration-ms="609" started-at="2017-03-16T19:59:52Z" finished-at="2017-03-16T19:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySettingsLaunch -->
+      </class> <!-- com.sml.testcases.VerifySettingsLaunch -->
+    </test> <!-- VerifySettingsLaunch -->
+    <test name="VerifyUpdatesLaunch" duration-ms="7491" started-at="2017-03-16T14:29:52Z" finished-at="2017-03-16T14:30:00Z">
+      <class name="com.sml.testcases.VerifyUpdatesScenario">
+        <test-method status="PASS" signature="beforeUpdatesLaunch()[pri:0, instance:com.sml.testcases.VerifyUpdatesScenario@77ec78b9]" name="beforeUpdatesLaunch" is-config="true" duration-ms="52" started-at="2017-03-16T19:59:52Z" finished-at="2017-03-16T19:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeUpdatesLaunch -->
+        <test-method status="PASS" signature="launchUpdatesScreen()[pri:1, instance:com.sml.testcases.VerifyUpdatesScenario@77ec78b9]" name="launchUpdatesScreen" duration-ms="6786" started-at="2017-03-16T19:59:52Z" finished-at="2017-03-16T19:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUpdatesScreen -->
+        <test-method status="PASS" signature="afterUpdatesLaunch()[pri:0, instance:com.sml.testcases.VerifyUpdatesScenario@77ec78b9]" name="afterUpdatesLaunch" is-config="true" duration-ms="653" started-at="2017-03-16T19:59:59Z" finished-at="2017-03-16T20:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterUpdatesLaunch -->
+      </class> <!-- com.sml.testcases.VerifyUpdatesScenario -->
+    </test> <!-- VerifyUpdatesLaunch -->
+    <test name="VerifySettingsAddResourcesScenarios" duration-ms="40183" started-at="2017-03-16T14:30:00Z" finished-at="2017-03-16T14:30:40Z">
+      <class name="com.sml.testcases.VerifySettingsAddResourcesScenarios">
+        <test-method status="PASS" signature="beforeSettingsAddResources()[pri:0, instance:com.sml.testcases.VerifySettingsAddResourcesScenarios@6121c9d6]" name="beforeSettingsAddResources" is-config="true" duration-ms="54" started-at="2017-03-16T20:00:00Z" finished-at="2017-03-16T20:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSettingsAddResources -->
+        <test-method status="FAIL" signature="verifyAddRespurcesLaunch()[pri:1, instance:com.sml.testcases.VerifySettingsAddResourcesScenarios@6121c9d6]" name="verifyAddRespurcesLaunch" duration-ms="40046" started-at="2017-03-16T20:00:00Z" finished-at="2017-03-16T20:00:40Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<5> but was:<65>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<5> but was:<65>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:86)
+	at com.sml.classes.SettingsPage.countNumberOfResources(SettingsPage.java:105)
+	at com.sml.testcases.VerifySettingsAddResourcesScenarios.verifyAddRespurcesLaunch(VerifySettingsAddResourcesScenarios.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddRespurcesLaunch -->
+        <test-method status="FAIL" signature="afterTest()[pri:0, instance:com.sml.testcases.VerifySettingsAddResourcesScenarios@6121c9d6]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:00:40Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Setting]s> but was:<[Add Resource]s>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[Setting]s> but was:<[Add Resource]s>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.sml.classes.SettingsPage.verifySettingsLaunch(SettingsPage.java:30)
+	at com.sml.testcases.VerifySettingsAddResourcesScenarios.afterTest(VerifySettingsAddResourcesScenarios.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.afterRun(TestRunner.java:973)
+	at org.testng.TestRunner.run(TestRunner.java:604)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sml.testcases.VerifySettingsAddResourcesScenarios -->
+    </test> <!-- VerifySettingsAddResourcesScenarios -->
+    <test name="VerifyRemoveResourcesLaunch" duration-ms="91" started-at="2017-03-16T14:30:40Z" finished-at="2017-03-16T14:30:40Z">
+      <class name="com.sml.testcases.VerifyRemoveResourcesLaunch">
+        <test-method status="FAIL" signature="beforeSettingsRemoveResources()[pri:0, instance:com.sml.testcases.VerifyRemoveResourcesLaunch@1b26f7b2]" name="beforeSettingsRemoveResources" is-config="true" duration-ms="0" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:00:40Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Setting]s> but was:<[Add Resource]s>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[Setting]s> but was:<[Add Resource]s>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.sml.classes.SettingsPage.verifySettingsLaunch(SettingsPage.java:30)
+	at com.sml.testcases.VerifyRemoveResourcesLaunch.beforeSettingsRemoveResources(VerifyRemoveResourcesLaunch.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:624)
+	at org.testng.TestRunner.run(TestRunner.java:592)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSettingsRemoveResources -->
+        <test-method status="SKIP" signature="verifyRemoveResourcesLaunch()[pri:1, instance:com.sml.testcases.VerifyRemoveResourcesLaunch@1b26f7b2]" name="verifyRemoveResourcesLaunch" duration-ms="2" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveResourcesLaunch -->
+        <test-method status="SKIP" signature="afterSettingsRemoveResources()[pri:0, instance:com.sml.testcases.VerifyRemoveResourcesLaunch@1b26f7b2]" name="afterSettingsRemoveResources" is-config="true" duration-ms="0" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSettingsRemoveResources -->
+      </class> <!-- com.sml.testcases.VerifyRemoveResourcesLaunch -->
+    </test> <!-- VerifyRemoveResourcesLaunch -->
+    <test name="VerifyMyProfileScenario" duration-ms="72" started-at="2017-03-16T14:30:40Z" finished-at="2017-03-16T14:30:40Z">
+      <class name="com.sml.testcases.VerifyMyProfileScenario">
+        <test-method status="FAIL" signature="beforeMyProfile()[pri:0, instance:com.sml.testcases.VerifyMyProfileScenario@66d1af89]" name="beforeMyProfile" is-config="true" duration-ms="0" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:00:40Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Setting]s> but was:<[Add Resource]s>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[Setting]s> but was:<[Add Resource]s>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.sml.classes.SettingsPage.verifySettingsLaunch(SettingsPage.java:30)
+	at com.sml.testcases.VerifyMyProfileScenario.beforeMyProfile(VerifyMyProfileScenario.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:624)
+	at org.testng.TestRunner.run(TestRunner.java:592)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMyProfile -->
+        <test-method status="SKIP" signature="verifyMyProfileLaunch()[pri:1, instance:com.sml.testcases.VerifyMyProfileScenario@66d1af89]" name="verifyMyProfileLaunch" duration-ms="2" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyProfileLaunch -->
+        <test-method status="SKIP" signature="afterMyProfile()[pri:0, instance:com.sml.testcases.VerifyMyProfileScenario@66d1af89]" name="afterMyProfile" is-config="true" duration-ms="0" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyProfile -->
+      </class> <!-- com.sml.testcases.VerifyMyProfileScenario -->
+    </test> <!-- VerifyMyProfileScenario -->
+    <test name="VerifySendFeedBackScenarios" duration-ms="94991" started-at="2017-03-16T14:30:40Z" finished-at="2017-03-16T14:32:15Z">
+      <class name="com.sml.testcases.VerifyLaunchRegistrationPage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.sml.testcases.VerifyLaunchRegistrationPage@36b4cef0]" name="beforeSuite" is-config="true" duration-ms="19357" started-at="2017-03-16T19:55:53Z" finished-at="2017-03-16T19:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.sml.testcases.VerifyLaunchRegistrationPage@36b4cef0]" name="afterSuite" is-config="true" duration-ms="855" started-at="2017-03-16T20:02:15Z" finished-at="2017-03-16T20:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.sml.testcases.VerifyLaunchRegistrationPage -->
+      <class name="com.sml.testcases.VerifySendFeedBackScenarios">
+        <test-method status="FAIL" signature="verifyFeedBackLaunch()[pri:1, instance:com.sml.testcases.VerifySendFeedBackScenarios@52f759d7]" name="verifyFeedBackLaunch" duration-ms="30083" started-at="2017-03-16T20:00:40Z" finished-at="2017-03-16T20:01:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'apples-MacBook-Air-3.local', ip: '192.168.2.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=ZY2232T4PJ, version=5.1.1, platform=LINUX, deviceUDID=ZY2232T4PJ, appActivity=com.medpresso.android.ui.HomeActivity, desired={app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, appActivity=com.medpresso.android.ui.HomeActivity, noReset=true, platformVersion=5.1, automationName=Appium, browserName=Android, udid=ZY2232T4PJ, platformName=Android, deviceName=Moto G (4), version=5.1.1}, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, browserName=Android, javascriptEnabled=true, udid=ZY2232T4PJ, platformName=Android}]
+Session ID: 87d59a3b-aa34-47fb-b4ba-a6ca4361ad07
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index = 1]/android.widget.LinearLayout[@index = 1]/android.widget.RelativeLayout[@index = 4]/android.widget.TextView[@index = 0]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'apples-MacBook-Air-3.local', ip: '192.168.2.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=ZY2232T4PJ, version=5.1.1, platform=LINUX, deviceUDID=ZY2232T4PJ, appActivity=com.medpresso.android.ui.HomeActivity, desired={app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, appActivity=com.medpresso.android.ui.HomeActivity, noReset=true, platformVersion=5.1, automationName=Appium, browserName=Android, udid=ZY2232T4PJ, platformName=Android, deviceName=Moto G (4), version=5.1.1}, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, browserName=Android, javascriptEnabled=true, udid=ZY2232T4PJ, platformName=Android}]
+Session ID: 87d59a3b-aa34-47fb-b4ba-a6ca4361ad07
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@index = 1]/android.widget.LinearLayout[@index = 1]/android.widget.RelativeLayout[@index = 4]/android.widget.TextView[@index = 0]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.sml.classes.SettingsPage.clickFeedBack(SettingsPage.java:140)
+	at com.sml.testcases.VerifySendFeedBackScenarios.verifyFeedBackLaunch(VerifySendFeedBackScenarios.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeedBackLaunch -->
+        <test-method status="PASS" signature="verifySendInvalidFeedback()[pri:2, instance:com.sml.testcases.VerifySendFeedBackScenarios@52f759d7]" name="verifySendInvalidFeedback" duration-ms="33662" started-at="2017-03-16T20:01:10Z" finished-at="2017-03-16T20:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySendInvalidFeedback -->
+        <test-method status="FAIL" signature="verifySendFeedBack()[pri:3, instance:com.sml.testcases.VerifySendFeedBackScenarios@52f759d7]" name="verifySendFeedBack" duration-ms="30360" started-at="2017-03-16T20:01:44Z" finished-at="2017-03-16T20:02:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.36 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'apples-MacBook-Air-3.local', ip: '192.168.2.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=ZY2232T4PJ, version=5.1.1, platform=LINUX, deviceUDID=ZY2232T4PJ, appActivity=com.medpresso.android.ui.HomeActivity, desired={app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, appActivity=com.medpresso.android.ui.HomeActivity, noReset=true, platformVersion=5.1, automationName=Appium, browserName=Android, udid=ZY2232T4PJ, platformName=Android, deviceName=Moto G (4), version=5.1.1}, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, browserName=Android, javascriptEnabled=true, udid=ZY2232T4PJ, platformName=Android}]
+Session ID: 87d59a3b-aa34-47fb-b4ba-a6ca4361ad07
+*** Element info: {Using=xpath, value=//android.view.View[@index = 0]/android.widget.EditText[@index = 0]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.36 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'apples-MacBook-Air-3.local', ip: '192.168.2.99', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=ZY2232T4PJ, version=5.1.1, platform=LINUX, deviceUDID=ZY2232T4PJ, appActivity=com.medpresso.android.ui.HomeActivity, desired={app=/Users/builduser/Documents/workspace/SMLAndroid/Files/app-release.apk, appPackage=com.medpresso.android.ui, appActivity=com.medpresso.android.ui.HomeActivity, noReset=true, platformVersion=5.1, automationName=Appium, browserName=Android, udid=ZY2232T4PJ, platformName=Android, deviceName=Moto G (4), version=5.1.1}, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, browserName=Android, javascriptEnabled=true, udid=ZY2232T4PJ, platformName=Android}]
+Session ID: 87d59a3b-aa34-47fb-b4ba-a6ca4361ad07
+*** Element info: {Using=xpath, value=//android.view.View[@index = 0]/android.widget.EditText[@index = 0]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.sml.classes.SettingsPage.enterFeedBackText(SettingsPage.java:153)
+	at com.sml.testcases.VerifySendFeedBackScenarios.verifySendFeedBack(VerifySendFeedBackScenarios.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySendFeedBack -->
+        <test-method status="FAIL" signature="afterFeedBack()[pri:0, instance:com.sml.testcases.VerifySendFeedBackScenarios@52f759d7]" name="afterFeedBack" is-config="true" duration-ms="0" started-at="2017-03-16T20:02:15Z" finished-at="2017-03-16T20:02:15Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Setting]s> but was:<[Add Resource]s>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[Setting]s> but was:<[Add Resource]s>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at com.sml.classes.SettingsPage.verifySettingsLaunch(SettingsPage.java:30)
+	at com.sml.testcases.VerifySendFeedBackScenarios.afterFeedBack(VerifySendFeedBackScenarios.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.afterRun(TestRunner.java:973)
+	at org.testng.TestRunner.run(TestRunner.java:604)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterFeedBack -->
+      </class> <!-- com.sml.testcases.VerifySendFeedBackScenarios -->
+    </test> <!-- VerifySendFeedBackScenarios -->
+  </suite> <!-- Suite -->
+</testng-results>

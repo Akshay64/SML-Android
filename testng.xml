@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  	<test name="VerifyLaunch">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyLaunch"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifyLaunchRegistration">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyLaunchRegistrationPage"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifyLaunchSignIn">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyLaunchSignIn"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifySignIn">
+  	<classes>
+  		<class name="com.sml.testcases.VerifySignIn"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifyAddResourcesLaunch">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyAddResourcesLaunch"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifyAddResourcesScenarios">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyAddResourcesScenarios"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifySettingsLaunch">
+  	<classes>
+  		<class name="com.sml.testcases.VerifySettingsLaunch"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifyUpdatesLaunch">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyUpdatesScenario"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifySettingsAddResourcesScenarios">
+  	<classes>
+  		<class name="com.sml.testcases.VerifySettingsAddResourcesScenarios"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifyRemoveResourcesLaunch">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyRemoveResourcesLaunch"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifyMyProfileScenario">
+  	<classes>
+  		<class name="com.sml.testcases.VerifyMyProfileScenario"></class>
+ 	 </classes>
+  </test>
+  <test name="VerifySendFeedBackScenarios">
+  	<classes>
+  		<class name="com.sml.testcases.VerifySendFeedBackScenarios"></class>
+ 	 </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
